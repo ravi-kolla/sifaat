@@ -1,6 +1,46 @@
 {
   "slices": {
     "components": {
+      "contact_form": {
+        "library": "slices",
+        "id": "contact_form",
+        "name": "ContactForm",
+        "description": "ContactForm",
+        "model": {
+          "id": "contact_form",
+          "type": "SharedSlice",
+          "name": "ContactForm",
+          "description": "ContactForm",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactForm",
+              "primary": {},
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {},
+            "slice_type": "contact_form"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "hero": {
         "library": "slices",
         "id": "hero",
@@ -99,7 +139,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Hero/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Hero\\default\\preview.png",
             "width": 800,
             "height": 694
           }
@@ -201,12 +241,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Image/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Image\\default\\preview.png",
             "width": 800,
             "height": 530
           },
           "banner": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Image/banner/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Image\\banner\\preview.png",
             "width": 800,
             "height": 363
           }
@@ -397,7 +437,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/ImageCards/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\ImageCards\\default\\preview.png",
             "width": 800,
             "height": 1167
           }
@@ -467,7 +507,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Quote/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Quote\\default\\preview.png",
             "width": 800,
             "height": 392
           }
@@ -579,12 +619,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Text/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Text\\default\\preview.png",
             "width": 800,
             "height": 516
           },
           "twoColumns": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Text/twoColumns/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\Text\\twoColumns\\preview.png",
             "width": 800,
             "height": 276
           }
@@ -743,12 +783,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/TextWithImage/default/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\TextWithImage\\default\\preview.png",
             "width": 800,
             "height": 656
           },
           "withButton": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/TextWithImage/withButton/preview.png",
+            "path": "C:\\Users\\ravit\\Desktop\\ravi-projects\\sifaat\\.slicemachine\\assets\\slices\\TextWithImage\\withButton\\preview.png",
             "width": 800,
             "height": 424
           }

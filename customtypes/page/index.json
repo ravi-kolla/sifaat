@@ -51,6 +51,9 @@
             },
             "text_with_image": {
               "type": "SharedSlice"
+            },
+            "contact_form": {
+              "type": "SharedSlice"
             }
           }
         }

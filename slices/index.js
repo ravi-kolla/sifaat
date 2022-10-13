@@ -6,6 +6,7 @@ import ImageCards from './ImageCards';
 import Quote from './Quote';
 import Text from './Text';
 import TextWithImage from './TextWithImage';
+import ContactForm from './ContactForm';
 
 export {
 	Hero,
@@ -14,6 +15,7 @@ export {
 	Quote,
 	Text,
 	TextWithImage,
+	ContactForm,
 };
 
 export const components = {
@@ -23,4 +25,5 @@ export const components = {
 	quote: Quote,
 	text: Text,
 	text_with_image: TextWithImage,
+	contact_form: ContactForm,
 };
