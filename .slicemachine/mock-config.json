@@ -93,6 +93,14 @@
       }
     },
     "navigation": {},
-    "settings": {}
+    "settings": {},
+    "footer": {
+      "leftContent": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
   }
 }

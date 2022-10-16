@@ -1,0 +1,59 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "footer",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "leftContent": [
+      {
+        "type": "paragraph",
+        "text": "Veniam excepteur dolor nulla veniam velit. Laborum aliquip excepteur nisi proident velit sit.",
+        "spans": []
+      }
+    ],
+    "links": [
+      {
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Tight",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ],
+    "otherlinks": [
+      {
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Whale",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ],
+    "newsletterDescription": [
+      {
+        "type": "paragraph",
+        "text": "Pariatur aliqua qui ex proident eiusmod quis id officia labore labore proident commodo. Pariatur excepteur reprehenderit esse laborum. Nostrud esse qui irure aliquip occaecat consequat magna sint est reprehenderit sunt eu ut.",
+        "spans": []
+      }
+    ]
+  }
+}

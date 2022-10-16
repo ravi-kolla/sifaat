@@ -13,8 +13,8 @@ export const Bounded = ({
       className={clsx(
         "px-6",
         yPadding === "sm" && "py-8 md:py-10",
-        yPadding === "base" && "py-20 md:py-28",
-        yPadding === "lg" && "py-32 md:py-48",
+        yPadding === "base" && "py-10 md:py-18",
+        yPadding === "lg" && "py-10 md:py-18",
         className
       )}
     >
