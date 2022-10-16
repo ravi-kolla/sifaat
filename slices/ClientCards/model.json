@@ -1,15 +1,15 @@
 {
-  "id": "contact_form",
+  "id": "client_cards",
   "type": "SharedSlice",
-  "name": "ContactForm",
-  "description": "ContactForm",
+  "name": "ClientCards",
+  "description": "ClientCards",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "ContactForm",
+      "description": "ClientCards",
       "primary": {
         "heading": {
           "type": "StructuredText",
@@ -17,20 +17,31 @@
             "label": "Heading",
             "placeholder": "",
             "allowTargetBlank": true,
-            "multi": "heading1,heading2,heading3"
-          }
-        },
-        "text": {
-          "type": "StructuredText",
-          "config": {
-            "label": "Text",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "multi": "paragraph,heading1,heading2,heading3,strong,em,hyperlink,list-item,o-list-item"
+            "multi": "heading1"
           }
         }
       },
-      "items": {},
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2200,
+              "height": 1200
+            },
+            "thumbnails": []
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]

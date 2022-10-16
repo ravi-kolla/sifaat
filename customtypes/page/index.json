@@ -54,6 +54,9 @@
             },
             "contact_form": {
               "type": "SharedSlice"
+            },
+            "client_cards": {
+              "type": "SharedSlice"
             }
           }
         }

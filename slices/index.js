@@ -7,6 +7,7 @@ import Quote from './Quote';
 import Text from './Text';
 import TextWithImage from './TextWithImage';
 import ContactForm from './ContactForm';
+import ClientCards from './ClientCards'
 
 export {
 	Hero,
@@ -16,6 +17,7 @@ export {
 	Text,
 	TextWithImage,
 	ContactForm,
+	ClientCards,
 };
 
 export const components = {
@@ -26,4 +28,5 @@ export const components = {
 	text: Text,
 	text_with_image: TextWithImage,
 	contact_form: ContactForm,
+	client_cards: ClientCards,
 };
